@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	margin: 0px;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	display: block;
+	background-color: white;
+	color: black;
+	overflow: hidden;
+	min-height: 100vh;
+	width: 100%;
+}
+
+body {
+	@apply bg-white text-default-dark;
+	@apply dark:bg-default-dark dark:text-default-light;
+}
