@@ -16,5 +16,19 @@ export const allProjects: Project[] = [
 		technologies: ['Svelte', 'TypeScript'],
 		coverImage: 'src/assets/images/website2.jpg',
 		id: '2'
+	},
+	{
+		title: 'Project 13',
+		description:
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+		technologies: ['Svelte', 'TypeScript'],
+		coverImage: '../assets/images/website1.png'
+	},
+	{
+		title: 'Project 4',
+		description:
+			'Lacus viverra vitae congue eu consequat ac felis donec. Elementum nibh tellus molestie nunc non. Rhoncus mattis rhoncus urna neque. Vivamus arcu felis bibendum ut. Ut eu sem integer vitae justo eget magna fermentum iaculis. Eu facilisis sed odio morbi. Fringilla urna porttitor rhoncus dolor purus non enim praesent.',
+		technologies: ['Svelte', 'TypeScript'],
+		coverImage: 'src/assets/images/website2.jpg'
 	}
 ];
