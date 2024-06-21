@@ -6,7 +6,7 @@
 </script>
 
 <section class="card group" class:cursor-pointer={href}>
-	<svelte:element this={href ? 'a' : 'div'} {href}>
+	<svelte:element this={href ? 'a' : 'div'} {href} class="link">
 		<div class="content">{description}</div>
 		<div class="banner">{title}</div>
 	</svelte:element>
@@ -14,16 +14,19 @@
 
 <style lang="postcss">
 	.card {
-		@apply relative max-w-[300px] rounded-lg px-4 py-4 border-[0.5px] border-gray-300 hover:outline-sky-700 hover:outline hover:outline-2;
+		@apply relative max-w-[300px] rounded-lg border-[0.5px] border-gray-300 hover:outline-sky-700 hover:outline hover:outline-2 overflow-hidden;
 		@apply dark:bg-transparent dark:border-gray-700;
 	}
 
+	.link {
+		@apply flex flex-col justify-between flex-1 h-full;
+	}
 	.content {
-		@apply w-full h-full scale-100 group-hover:scale-[1.02] ease-in duration-150;
+		@apply w-full scale-100 group-hover:scale-105 ease-in duration-150 flex-1 py-4 px-8;
 	}
 
 	.banner {
-		@apply absolute bottom-0 left-0 bg-gray-300 w-full max-h-[30%] p-4 text-center text-xl rounded-b-lg;
-		@apply dark:bg-gray-800 dark:text-default-light;
+		@apply bg-gray-300 w-full p-4 text-center text-2xl rounded-b-lg mt-auto;
+		@apply dark:bg-slate-800 dark:text-default-light;
 	}
 </style>
