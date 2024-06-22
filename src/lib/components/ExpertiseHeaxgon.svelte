@@ -52,7 +52,7 @@
 		@apply pb-4;
 	}
 	.hexagon {
-		@apply w-[150px] h-[150px] flex justify-center items-center text-center font-bold p-4 scale-100 hover:scale-[1.10] ease-in duration-100;
+		@apply w-[150px] h-[150px] flex justify-center text-default-light dark:text-default-dark items-center text-center font-bold p-4 scale-100 hover:scale-[1.10] ease-in duration-100;
 		clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 	}
 

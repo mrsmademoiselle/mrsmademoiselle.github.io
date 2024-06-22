@@ -5,6 +5,7 @@
 
 <section class="about">
 	<section class="who">
+		<Expertise />
 		<ExpertiseHeaxgon />
 	</section>
 </section>
