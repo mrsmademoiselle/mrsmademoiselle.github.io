@@ -4,3 +4,4 @@ export function load({ params }) {
 		projectId: params.projectId
 	};
 }
+export const prerender = false;

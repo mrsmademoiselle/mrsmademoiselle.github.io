@@ -4,7 +4,7 @@
 </script>
 
 <section class="about">
-	<section class="who">
+	<section>
 		<Expertise />
 		<ExpertiseHeaxgon />
 	</section>
@@ -13,12 +13,5 @@
 <style lang="postcss">
 	.about {
 		@apply flex flex-col mx-16 mt-24 gap-24;
-	}
-	.text {
-		@apply max-w-[85%] mx-8 mr-12;
-	}
-
-	.description {
-		@apply text-xl mt-4;
 	}
 </style>
