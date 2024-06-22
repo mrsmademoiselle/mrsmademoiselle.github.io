@@ -13,7 +13,6 @@ body {
 	display: block;
 	background-color: white;
 	color: black;
-	overflow: hidden;
 	min-height: 100vh;
 	width: 100%;
 }

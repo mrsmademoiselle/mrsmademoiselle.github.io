@@ -24,7 +24,7 @@
 
 	onMount(() => {
 		const storedDarkMode = localStorage.getItem('darkMode');
-		darkModeOn = storedDarkMode === 'true';
+		if (storedDarkMode) darkModeOn = storedDarkMode === 'true';
 		applyTheme();
 	});
 </script>

@@ -8,8 +8,8 @@ export default {
 			colors: {
 				'default-light': '#E9E9E9',
 				'default-dark': '#111314'
-			}
-		}
+			},
+		},
 	},
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	plugins: [addIconSelectors(['mdi', 'mdi-light'])]
